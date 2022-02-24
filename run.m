@@ -25,7 +25,7 @@ for idata = 1:length(dataname)
         
         time1 = toc;
         maxAcc = 0;
-        TempAnchor = [k,2*k, 3*k,5*k,10*k];
+        TempAnchor = [k];
         
         ACC = zeros(length(TempAnchor));
         NMI = zeros(length(TempAnchor));
